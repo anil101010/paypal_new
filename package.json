@@ -1,0 +1,19 @@
+{
+  "name": "paypal-appwrite-function",
+  "version": "1.0.0",
+  "description": "Appwrite function to handle PayPal payments",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "node-appwrite": "^11.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
