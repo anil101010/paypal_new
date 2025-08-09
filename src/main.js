@@ -5,7 +5,7 @@ function createPayPalClient(context) {
   const clientSecret = process.env.PAYPAL_SECRET;
   
   if (!clientId || !clientSecret) {
-    throw new Error('PayPal credentials not configured');
+    throw new Error('PayPal credentials not configured ...');
   }
 
   const environment = process.env.PAYPAL_ENVIRONMENT === 'production'
